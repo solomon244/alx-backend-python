@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-'''type-annotated function floor which takes a float n as argument and returns the floor of the float
+'''Basic annotations - floor
 '''
 
 
 def floor(a: float) -> int:
-    '''Computes the floor of a floating-point
+    '''Computes the floor of a floating-point number.
     '''
-    return math.floor(a)
+    return int(a)
