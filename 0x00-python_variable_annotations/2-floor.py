@@ -6,4 +6,4 @@
 def floor(a: float) -> int:
     '''Computes the floor of a floating-point
     '''
-    return int(a)
+    return math.floor(a)
